@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css" />
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <label for="Report For Employee">Between Teams </label><br>
+    <select class="form-control select bew_teams_wise_report" name="bew_teams_wise_report" style="width: 100%;">
+        <option>--Select Teams--</option>
+        <option value="Manager 1">Manager 1</option>
+        <option value="Manager 2">Manager 2</option>
+        <option value="Manager 3">Manager 3</option>
+        <option value="Manager 4">Manager 4</option>
+    </select>
+
+    <!-- Select2 JS -->
+    <script src="assets/js/select2.min.js"></script>
+    <script type="text/javascript">
+        $('.bew_teams_wise_report').select2({});
+     </script>
+</body>
+</html>
